@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2de1b9cddc3e3174a8af07caf7930c51, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  _towersLimit: 100
+  _towerRotationSpeed: 180
+  _towerRotationAngleMin: 15
+  _towerRotationAngleMax: 45
+  _towerRotationInterval: 0.5
+  _towerStartDelay: 6
+  _towerShootingLifetime: 12
+  _towerActiveColor:
+    serializedVersion: 2
+    rgba: 4278190335
+  _towerInactiveColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  _towerShotPivot: {x: 0, y: 0.316, z: 0.316}
+  _towerSqrRadius: 0.125
+  _bulletMovementSpeed: 4
+  _bulletMovementDistanceMin: 1
+  _bulletMovementDistanceMax: 4
